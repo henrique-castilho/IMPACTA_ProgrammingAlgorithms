@@ -1,4 +1,4 @@
-#Multiplique um número por 3 e subtraia 9. O resultado é igual ao próprio número.
+# Multiplique um número por 3 e subtraia 9. O resultado é igual ao próprio número.
 
 num = int(input("Digite um número: "))
 
