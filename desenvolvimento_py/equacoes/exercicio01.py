@@ -1,4 +1,4 @@
-# Um número somado ao seu dobro resulta em 36. Qual é esse número?
+# 1 Um número somado ao seu dobro resulta em 36. Qual é esse número?
 
 num = 36 / 3
 resultado = num + (num * 2)
