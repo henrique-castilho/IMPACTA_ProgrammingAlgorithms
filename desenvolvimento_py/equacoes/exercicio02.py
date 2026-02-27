@@ -1,12 +1,16 @@
-# 2 Multiplique um número por 3 e subtraia 9. O resultado é igual ao próprio número.
+# 2) A diferença entre um número e sua terça parte é 20.
+# Qual é esse número?
 
-num = int(input("Digite um número: "))
+# Equação:
+# x - x/3 = 20
+# (3x - x)/3 = 20
+# 2x/3 = 20
+# 2x = 60
+# x = 30
 
-resultado = (num * 3) - 9
+x = 30
 
-if resultado == num:
-    print(f"Parabéns! {num} é o número correto!")
-    print(f"({num} * 3) - 9 = {resultado}")
-else: 
-    print(f"O número {num} não é da o mesmo resultado.")
-    print(f"({num} * 3) - 9 = {resultado}, não {num}")
+diferenca = x - x/3
+print(f"O número é: {x}")
+print(f"Verificando a diferença: {x} - {x/3:} = {diferenca}")
+print(f"Sua terça parte é: {x/3}")
